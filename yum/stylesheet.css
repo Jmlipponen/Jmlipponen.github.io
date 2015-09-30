@@ -53,4 +53,30 @@ table {
 
 /* END RESET */
 
+<style>
+h1
+	header #top 
+	{text-color:black; font-family:Georgia; text-transform:none; float:left;
+	font-weight:bold; font-size:16px;text-indent:5px; line-height:1.4em; 
+	text-align:left; text-decoration:none; margin:15px; 
+	background-color: white; padding: 8px 10px 8px 10px;
+}
+
+h2 nav a #servings
+{text-color:black; font-family:Georgia; text-align:right; float: right;
+	font-weight:normal; font-size:10px; line-height:1.3em; text-decoration:none;
+	background-color:white; padding: 5px;
+ }
+h3 body #ingredients p
+{color:black; padding:10px; margin:10px; text-align:left; float:left; 
+	font-weight:normal; text-decoration:none; font-family:Georgia; 
+	font-size:9.5px; line-height:1.3em; background-color:white;
+}
+h3 body #preparation p
+{color:black; padding:10px; margin:10px; text-align:right; float:right; 
+	font-weight:normal; text-decoration:none; font-family:Georgia; 
+	font-size:9.5px; line-height:1.3em; background-color:white;
+}
+</style>
+	
 
