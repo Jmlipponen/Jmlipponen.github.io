@@ -53,7 +53,6 @@ table {
 nav li {
 	float:left;	
 	margin:20px;
-	text-decoration:none;
 	font-color:black;
 }
 nav {
@@ -61,6 +60,7 @@ nav {
 	margin-top:40px;
 	border-bottom:2px solid black;
 	height:50px;
+	font-color:black;
 }
 #article1 {
 	clear:both;;
@@ -73,7 +73,7 @@ nav {
 	width:40%;
 }
 
-element.style {
+footer {
 	clear:both;
 }
 
