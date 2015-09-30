@@ -50,50 +50,35 @@ table {
 
 /* End of Reset */
 
+nav li {
+	float:left;	
+	margin:20px;
+	text-decoration:none;
+	font-color:black;
+}
+nav {
+	border-top:2px solid black;
+	margin-top:40px;
+	border-bottom:2px solid black;
+	height:50px;
+}
+#article1 {
+	clear:both;;
+	float:left;
+	width:40%;
+}
 
-h1
-	nav a #top 
-	{text-color:black; font-family:Georgia; text-transform:uppercase;
-	font-weight:bold; font-size:18px;text-indent:10px; line-height:1.4em; 
-	text-align:center;text-decoration:none;float:center; margin:20px; 
-	background-color: white; padding: 8px 10px 8px 10px; margin: 8px;
+#article2 {
+	float:left;
+	width:40%;
 }
-div.img
-.dogs-image h2 
-{ margin: 5px; padding: 5px; float:left;
+
+element.style {
+	clear:both;
 }
-.dogs-header h3 #dogs-header
-{text-color:black; font-family:Georgia; text-align:left;
-	font-weight:bold; font-size:16px; line-height:1.4em; text-decoration:none;
-	background-color:white; padding: 10px 12px 10px 12px;
- }
-.dogs-body h4 body #dogs-content p
-{color:black;padding:10px;margin:20px;text-align:left;font-weight:normal;
-	text-decoration:none;font-family:Georgia;font-size:12px;
-	line-height:1.3em;background-color:white;
-}
-div.img 
-.cats-image 
-h2 { margin: 5px; padding: 5px; float:right;
-}
-.cats-header h3 #cats-header
-{text-color:black; font-family:Georgia; text-align:right;
-	font-weight:bold; font-size:16px; line-height:1.4em; text-decoration:none;
-	background-color:white; padding: 10px 12px 10px 12px;
-}
-.cats-body h4 body #cats-content p
-{color:black;padding:10px;margin:20px;text-align:right;font-weight:normal;
-	text-decoration:none;font-family:Georgia;font-size:12px;
-	line-height:1.3em;background-color:white;
-}
- .left-footer h5 footer #left-footer
-	{text-align:left; font-family:Georgia; font-size:8px;
-	text-decoration:none; line-height:1.3em; background-color:white; padding:5px;
-	font-color:black,red; font-weight:normal;text-transform:lowercase;
-}
-.right-footer h5 footer #right-footer
-{text-align:right; font-family:Georgia; font-size:8px;
-text-decoration:none; line-height:1.3em; background-color:white; padding:5px;
-font-color:black,red; font-weight:normal;text-transform:lowercase;
-}
+
+img {width:50%;
+	}
+
+
 	

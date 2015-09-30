@@ -50,45 +50,42 @@ table {
 
 /* -----------------END RESET---------------- */
 
-
-h1 
-div.img
-.llama-1.jpg 
-{ margin: 5px; padding: 5px; float:left;
-}
-.llama1-header h2 #llama1-header
-{text-color:black; font-family:Helvetica; text-align:left;
-	font-weight:bold; font-size:16px; line-height:1.4em; text-decoration:none;
-	background-color:white; padding: 10px 12px 10px 12px;
- }
- .Frank-Doe h3 #author-content
- {text-color:gray; font-family:Helvetica; text-align:right;
- 	font-weight:normal; font-size:11pt; line-height:1.3em; text-decoration:none;
- 	background-color:white; padding: 2px 4px 2px 4px;
-}
-.llama1-body h4 body #article p
-{color:black;padding:10px;margin:20px;text-align:left;font-weight:normal;
-	text-decoration:none;font-family:Helvetica;font-size:14px;
-	line-height:1.3em;background-color:white;
-}
-div.img 
-.llama-2.jpg h1
-h2 { margin: 5px; padding: 5px; float:center;
-}
-.llama2-header h2 #llama2-header
-{text-color:black; font-family:Helvetica; text-align:right;
-	font-weight:bold; font-size:16px; line-height:1.4em; text-decoration:none;
-	background-color:white; padding: 10px 12px 10px 12px;
-}
-.Frank-Doe h3 #author-content
-{text-color:gray; font-family:Helvetica; text-align:right;
-	font-weight:normal; font-size:11pt; line-height:1.3em; text-decoration:none;
-	background-color:white; padding: 2px 4px 2px 4px;
-}
-.llama2-body h4 body #article p
-{color:black;padding:10px;margin:20px;text-align:left;font-weight:normal;
-	text-decoration:none;font-family:Helvetica;font-size:14px;
-	line-height:1.3em;background-color:white;
+h1 { 
+	font-family:Helvetica;
+	color:black;
+	font-size:18px;
+	font-weight:bold;
+	line-height:1.3em;
+	text-decoration:none;
 }
 
+h2 {
+	font-family:Helvetica;
+	color:gray;
+	font-size:10px;
+	padding-bottom:10px;
 	
+}
+
+body {
+	font-family:Helvetica;
+	color:black;
+	text-align:left;
+	font-weight:normal;
+	text-decoration:none;
+	font-size:11px;
+	line-height:1.3em;
+	}	
+	
+article {float:left;
+	width:40%;
+	margin-left:5%;
+	margin-right:5%;
+	}
+	
+img {
+	width:50%;
+	float:left;
+	margin-right:20px;
+	margin-bottom:7px;
+}
