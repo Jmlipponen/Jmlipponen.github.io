@@ -52,6 +52,7 @@ table {
 
 nav li {
 	float:left;	
+<<<<<<< HEAD
 	font-color:black;
 	font:Helvetica;
 	font-size:25px;
@@ -118,6 +119,34 @@ img {width:50%;
 	margin-top:15px;
 	margin-bottom:50px;
 	float:center;
+=======
+	margin:20px;
+	font-color:black;
+}
+nav {
+	border-top:2px solid black;
+	margin-top:40px;
+	border-bottom:2px solid black;
+	height:50px;
+	font-color:black;
+}
+#article1 {
+	clear:both;;
+	float:left;
+	width:40%;
+}
+
+#article2 {
+	float:left;
+	width:40%;
+}
+
+footer {
+	clear:both;
+}
+
+img {width:50%;
+>>>>>>> origin/master
 	}
 
 
