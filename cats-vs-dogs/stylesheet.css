@@ -52,7 +52,6 @@ table {
 
 nav li {
 	float:left;	
-<<<<<<< HEAD
 	font-color:black;
 	font:Helvetica;
 	font-size:25px;
@@ -90,7 +89,10 @@ h2 {float:left;
 	height:20%;
 	font:Helvetica;
 	font-size:16px;
-	margin:25px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:20px;
 }
 
 #article2 {
@@ -99,7 +101,10 @@ h2 {float:left;
 	width:50%;
 	font:Helvetica;
 	font-size:16px;
-	margin:25px
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:20px;
 }
 
 a {color:black;
@@ -119,8 +124,7 @@ img {width:50%;
 	margin-top:15px;
 	margin-bottom:50px;
 	float:center;
-=======
-	margin:20px;
+	margin:10px;
 	font-color:black;
 }
 nav {
@@ -137,8 +141,9 @@ nav {
 }
 
 #article2 {
-	float:left;
+	float:right;
 	width:40%;
+	clear:both;
 }
 
 footer {
