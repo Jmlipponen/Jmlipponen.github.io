@@ -51,32 +51,85 @@ table {
 }
 
 
-/* END RESET */
+/* END RESET */ 
+/*h1 is the Recipe 2 link, h2 is title, nav is servings */
 
-<style>
-h1
-	header #top 
-	{text-color:black; font-family:Georgia; text-transform:none; float:left;
-	font-weight:bold; font-size:16px;text-indent:5px; line-height:1.4em; 
-	text-align:left; text-decoration:none; margin:15px; 
-	background-color: white; padding: 8px 10px 8px 10px;
+h1  { font-family:Georgia;
+	font-size:15px;
+	float:left;
+	margin-top:0px;
+	margin-left:20px;
+	margin-bottom:40px;
+	margin-right:20px;
+	text-align:left;
+	font-decoration:none;
+	font-color:black;
 }
 
-h2 nav a #servings
-{text-color:black; font-family:Georgia; text-align:right; float: right;
-	font-weight:normal; font-size:10px; line-height:1.3em; text-decoration:none;
-	background-color:white; padding: 5px;
- }
-h3 body #ingredients p
-{color:black; padding:10px; margin:10px; text-align:left; float:left; 
-	font-weight:normal; text-decoration:none; font-family:Georgia; 
-	font-size:9.5px; line-height:1.3em; background-color:white;
+h2 {font-family:Georgia;
+font-size:20px;
+text-align:left;
+float:left;
+margin-left:10px;
+margin-right:10px;
+margin-top:30px;
+margin-bottom:20px;
+font-color:black;
 }
-h3 body #preparation p
-{color:black; padding:10px; margin:10px; text-align:right; float:right; 
-	font-weight:normal; text-decoration:none; font-family:Georgia; 
-	font-size:9.5px; line-height:1.3em; background-color:white;
+
+h3 {font-family:Georgia;
+font-size:16px;
+text-align:left;
+float:left;
+margin-left:10px;
+margin-right:10px;
+margin-top:5px;
+margin-bottom:10px;
+font-color:black;
+text-variant:uppercase;
+clear:both;
+width:10px;
+height:20px;}
+
+h3 #Preparation {font-family:Georgia;
+font-size:16px;
+text-align:left;
+float:right;
+margin-left:10px;
+margin-right:10px;
+margin-top:5px;
+margin-bottom:10px;
+font-color:black;
+text-variant:uppercase;
 }
-</style>
+
+nav {font-family:Georgia;
+	font-size:12px;
+	text-align:right;
+	margin:40px;
+	list-style-type:circle;
+	color:black;
+	font-color:black;	
+}
+
+li {font-family:Georgia;
+	font-size:15px;
+	text-align:left;
+	margin:20px;
+	text-decoration:none;
+	font-color:black;
+	clear:both;}
 	
+	a {color:black;
+		text-decoration:none;}
 
+p {font-family:Georgia;
+	font-size:15px;
+	text-align:left;
+	margin-left:20px;
+	margin-right:60px;
+	margin-top:5px;
+	margin-bottom:0px;
+	float:right;
+	width:500px;
+}
