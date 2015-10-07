@@ -50,3 +50,20 @@ table {
 	border-spacing: 0;
 }
 
+/* end of reset */
+
+
+h1 {font-family:Helvetica;
+	font-color:brown;
+	font-size:30px;
+	font-variant:uppercase;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:5px;
+	margin-right:10px;
+	margin-bottom:10px;
+	text-align:left;
+	float:left;}
+	
+	
+
