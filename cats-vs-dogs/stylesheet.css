@@ -74,7 +74,14 @@ nav {
 	font-color:black;
 }
 
-nav a {color:black; text-decoration:none;}
+nav a {color:black; text-decoration:none;
+	list-style-type:disc outside;}
+	
+h1 {float:center;
+	padding-top:20px;
+	padding-bottom:0px;
+	padding-left:350px; 
+	}
 
 h2 {float:left;
 	font:Helvetica;
