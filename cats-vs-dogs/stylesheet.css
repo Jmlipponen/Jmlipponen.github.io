@@ -51,16 +51,18 @@ table {
 /* End of Reset */
 
 nav li {
+	display:inline-block;
+	width:200px;
 	float:left;	
 	font-color:black;
 	font:Helvetica;
 	font-size:25px;
 	font-weight:bold;
 	text-transform:uppercase;
-	margin-top:10px;
+	margin-top:5px;
 	margin-left:10px;
 	margin-right:10px;
-	margin-bottom:5px;
+	margin-bottom:0px;
 	text-align:center;
 }
 
@@ -68,11 +70,11 @@ nav {
 	border-top:3.5px solid black;
 	margin-top:40px;
 	border-bottom:3.5px solid black;
-	height:50px;
+	height:35px;
 	font-color:black;
 }
 
-nav a {list-style-type:circle; color:black; text-decoration:none;}
+nav a {color:black; text-decoration:none;}
 
 h2 {float:left;
 	font:Helvetica;
