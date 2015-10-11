@@ -57,6 +57,7 @@ h1 {
 	font-weight:bold;
 	line-height:1.3em;
 	text-decoration:none;
+	margin-top:55px;
 }
 
 h2 {
@@ -88,4 +89,5 @@ img {
 	float:left;
 	margin-right:20px;
 	margin-bottom:7px;
+	margin-top:60px;
 }
