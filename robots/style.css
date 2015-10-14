@@ -56,16 +56,86 @@ table {
 
 	body { width:960px; margin:0 auto; }
 
-	header#site-header {
-	  position:relative; height:80px;
+#site-wrapper
+{ 	
+	background-color::#804224;
+	width:100%;
+	height:100px;
+}
+
+header #site-header {
+	position:relative; 
+	height:80px;
+	width:100%;
+	background-color::#804224;
 	}
 
 	#site-header h1 a { 
 	  display:block;	
 	  text-indent:-9999px;    
 	  position:absolute;
+		top:0;
+		left:0;
 	  width:300px; height:80px;
 	  background:url(logo.png) no-repeat left top;
+	}
+	
+	#site-header nav {
+		position:absolute;
+		top:0;
+		right:0;	
+	}
+	
+	#menu-wrapper {
+		width:100%;
+		background-color:#804224;
+	}
+	
+	#main-menu {
+		margin:0 auto;
+		width:70%; /* keep percent the same for widths */
+	}
+	
+	#main-menu li {
+		float:left;
+		height:50px; /* temporary set width */
+	}
+	
+	#sidebar {
+		float:left;
+		width:30%;
+	}
+	
+	#page {
+		float:left;
+		width:70%;
+	}
+	
+	#content-wrapper {
+		margin:0 auto;
+		width:70%;
+	}
+	
+	#footer-wrapper {
+		clear:both;
+		background-color:#FAF8E6;
+		width:100%;
+		height:100px;
+	}
+	
+	#footer-contact {
+		float:left;
+		width:50%;
+	}
+	
+	#footer-follow {
+		float:right;
+		width:50%;
+	}
+	
+	#site-footer {
+		margin:0 auto;
+		width:70%;
 	}
 	
 	/* login contact */
@@ -84,9 +154,7 @@ table {
 		padding-bottom:75px; 
 		padding-top:3px; 
 		font-color:#804224;
-		text-decoration:none; 
-		text-color:#FAF8E6;
-		
+		text-decoration:none;
 	}
 
 	nav#main-menu 
