@@ -52,7 +52,7 @@ table {
 
 nav li {
 	display:inline-block;
-	width:100px;
+	width:40px;
 	float:left;	
 	font-color:black;
 	font:Helvetica;
@@ -60,11 +60,11 @@ nav li {
 	font-weight:bold;
 	text-transform:uppercase;
 	margin-top:5px;
-	margin-left:30px;
+	padding-left:50px;
 	margin-right:10px;
 	margin-bottom:0px;
-	text-align:center;
-	list-style-type:disc outside;
+	text-align:left;
+	text-indent:80px;
 }
 
 nav {
@@ -75,12 +75,11 @@ nav {
 	font-color:black;
 }
 
-nav a {color:black; text-decoration:none;
-	list-style-type:disc outside;}
+nav a {color:black; text-decoration:none;}
 	
 h1 {float:center;
 	padding-top:20px;
-	padding-bottom:0px;
+	padding-bottom:120px;
 	padding-left:350px; 
 	}
 
@@ -116,34 +115,32 @@ h2 {float:left;
 }
 
 p {	
-	padding-top:45px;
+	padding-top:50px;
 	padding-left:2%;
 	padding-bottom:10px;
 	line-height:1.2em;
 	width:85%;
+	margin-top:490px;
 	}
-
-#footer1 {
+	
+footer {
 	border-top:3.5px solid black;
-	margin-top:10px;
-	padding-left:25px;
-	padding-top:15px;
-	padding-bottom:30px;
-	float:left;
 	clear:both;
-	font:Helvetica;
-	font-size:14px;
 }
 
 footer a:link {color:#CC0000;text-decoration:none;}
 
-#footer2 {
+#p1 {
+	float:left;
+	font:Helvetica;
+	font-size:14px;
+	text-indent:10px;
+}
+
+#p2 {
 	float:right;
-	border-top:3.5px solid black;
-	padding-top:15px;
-	padding-bottom:30px;
-	padding-right:15px;
-	clear:both;
+	text-align:left;
+	padding-bottom:125px;
 	font:Helvetica;
 	font-size:14px;
 }
@@ -152,7 +149,7 @@ img {
 	width:50%;
 	margin-top:15px;
 	margin-bottom:5px;
-	float:center;
+	float:left;
 	margin-left:15px;
 	font-color:black;
 }
