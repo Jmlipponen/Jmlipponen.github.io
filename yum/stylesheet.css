@@ -143,5 +143,19 @@ p {font-family:Georgia;
 	float:left;
 	width:350px;
 	line-height:1.5em;
-	text-indent:50px;
+	}
+	
+	h5 
+	{
+			text-indent:20px;
+			font-family:Georgia;
+			font-size:13px;
+			text-align:left;
+			margin-left:100px;
+			margin-right:60px;
+			margin-top:0px;
+			margin-bottom:0px;
+			float:left;
+			width:350px;
+			line-height:1.5em;
 	}
