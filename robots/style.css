@@ -54,15 +54,10 @@ table {
 
 
 
-	body { 
-		width:960px; 
-		margin:0 auto; 
-	}
+	body { width:960px; margin:0 auto; }
 
-	header#site-header 
-	{
-	  position:relative; 
-	  height:80px;
+	header#site-header {
+	  position:relative; height:80px;
 	}
 
 	#site-header h1 a { 
@@ -72,8 +67,7 @@ table {
 	  width:300px; height:80px;
 	  background:url(logo.png) no-repeat left top;
 	}
-	
-	nav #top-nav 
+	nav#top-nav 
 	{ 
 		position:absolute; 
 		right:150px; 
@@ -91,7 +85,7 @@ table {
 		text-decoration:none; 
 	}
 
-	nav #main-menu 
+	nav#main-menu 
 	{ 
 		height:30px; 
 		background-color:#804224; 
@@ -99,47 +93,15 @@ table {
 		font-size:20px; text-transform:uppercase; font-family:Helvetica;
 		padding:20px; margin:5px; display:inline-block; top:10px; right:20px;
 		text-decoration:none; }
-		
-	nav #main-menu ul li 
-	{ 
-		display:block; 
-		float:left; 
-		padding:0 5px; 
-	}
-	
-	nav #main-menu ul li a 
-	{ 
-		display:block; 
-		color:white; 
-		padding:5px 5px; 
-		background-color:#804224; 
-	}
+	nav#main-menu ul li { display:block; float:left; padding:0 5px; }
+	nav#main-menu ul li a { display:block; color:white; padding:5px 5px; background-color:#804224; }
 
-	section #page-content 
-	{ 
-		float:left; 
-		width:550px; 
-		padding:50px 20px; 
-	}
-	
-	aside #sidebar 
-	{ 
-		float:right; 
-		width:220px; 
-		padding:50px 10px; 
-	}
+	section#page-content { float:left; width:550px; padding:50px 20px; }
+	aside#sidebar { float:right; width:220px; padding:50px 10px; }
 
-	footer #site-footer 
-	{
-		clear:both; 
-		background-color:black; 
-		color:white; 
-		padding:10px 0px;
-	}	
+	footer#site-footer {clear:both; background-color:black; color:white; padding:10px 0px;}	
 	
-	h1 
-	{
-		font-family:Helvetica;
+	h1 {font-family:Helvetica;
 		color:#804224;
 		font-size:30px;
 		font-variant:uppercase;
@@ -149,8 +111,7 @@ table {
 		margin-right:10px;
 		margin-bottom:10px;
 		text-align:left;
-		float:left;
-	}
+		float:left;}
 
 
 
