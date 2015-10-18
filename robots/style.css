@@ -54,7 +54,9 @@ table {
 
 
 
-	body { width:960px; margin:0 auto; }
+
+body { width:960px; margin:0 auto; }
+
 
 #site-wrapper
 { 	
@@ -80,10 +82,17 @@ header #site-header {
 	  background:url(logo.png) no-repeat left top;
 	}
 	
+	/* contact and log in top right */
 	#site-header nav {
 		position:absolute;
 		top:0;
-		right:0;	
+		right:300px;
+		background-color:#FAF8E6;
+		height:22%;
+		text-family:Helvetica;
+		text-size:20px;
+		text-decoration:none;
+		text-color:#804224;	
 	}
 	
 	#menu-wrapper {
@@ -93,7 +102,7 @@ header #site-header {
 	
 	#main-menu {
 		margin:0 auto;
-		width:70%; /* keep percent the same for widths */
+		width:80%; /* keep percent the same for widths */
 	}
 	
 	#main-menu li {
@@ -103,17 +112,17 @@ header #site-header {
 	
 	#sidebar {
 		float:left;
-		width:30%;
+		width:20%;
 	}
 	
 	#page {
 		float:left;
-		width:70%;
+		width:80%;
 	}
 	
 	#content-wrapper {
 		margin:0 auto;
-		width:70%;
+		width:80%;
 	}
 	
 	#footer-wrapper {
@@ -135,11 +144,11 @@ header #site-header {
 	
 	#site-footer {
 		margin:0 auto;
-		width:70%;
+		width:80%;
 	}
 	
 	/* login contact */
-	nav#top-nav 
+	/* mine nav#top-nav 
 	{ 
 		position:absolute; 
 		right:150px; 
@@ -155,7 +164,12 @@ header #site-header {
 		padding-top:3px; 
 		font-color:#804224;
 		text-decoration:none;
-	}
+		text-family:Helvetica;
+		text-size:20px;
+		text-decoration:none;
+		text-color:#804224;	
+		
+	} */
 
 	nav#main-menu 
 	{ 
@@ -191,45 +205,39 @@ header #site-header {
 	
 	aside#sidebar { 
 		float:right; 
-		width:220px; 
+		width:250px; 
 		padding:50px 10px;
 		margin-right:100px; 	
-		margin-left:50px;	
+		margin-left:50px;
 	}
 	
 	aside h1 { 
-		float:right; 
-		padding-bottom:5px;
+		float:left; 
 		text-align:left;
 		text-decoration:none;
 		font-family:Helvetica;
 		color:#804224;
-		font-size:30px;
+		font-size:25px;
 		text-transform:uppercase;
 		font-weight:bold;
 	}
 	
 	aside li {
 		float:left;
-		padding-top:5px;
-		padding-bottom:5px;
+		width:60%;
 		line-height:1.2em;
 		text-decoration:none;
 		font-family:Helvetica;
-		color:#804224;
-		font-size:20px;
-	}
-	
-	aside img {
-		padding-top:15px;
-		padding-bottom:30px;
+		font-color:#804224;
+		font-size:15px;
+		padding-bottom:17px;
 	}
 
 	footer#site-footer {
 		clear:both; 
-		background-color:black; 
-		color:white; 
-		padding:10px 0px;}	
+		background-color:#804224; 
+		padding:80px 0px;
+		width:100%;}	
 		
 		footer h1 {
 			text-color:#D6D6C2;
@@ -249,7 +257,7 @@ header #site-header {
 	
 	h1 {font-family:Helvetica;
 		color:#804224;
-		font-size:50px;
+		font-size:45px;
 		text-transform:uppercase;
 		font-weight:bold;
 		margin-top:50px;
@@ -260,10 +268,10 @@ header #site-header {
 		
 	h2 	{font-family:Helvetica;
 		color:#804224;
-		font-size:30px;
+		font-size:25px;
 		text-transform:uppercase;
 		font-weight:bold;
-		padding-top:10px;
+		padding-top:0px;
 		padding-bottom:5px;
 		float:left;
 		text-align:left;
@@ -274,7 +282,7 @@ header #site-header {
 		padding-bottom:10px;
 		text-align:left;
 		float:left;
-		width:55%;
+		width:86%;
 		line-height:1.2em;
 	}
 
