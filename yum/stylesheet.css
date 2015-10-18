@@ -60,7 +60,6 @@ table {
 	float:left;
 	margin-top:0px;
 	margin-left:20px;
-	margin-bottom:40px;
 	text-align:left;
 	font-color:black;
 	}
@@ -122,6 +121,25 @@ ul {font-family:Georgia;
 	text-indent:20px;
 	}
 	
+	ul p #Accompaniment {
+		margin-top:5px;
+	}
+	
+	p #First {
+		left-margin:160px;
+		font-family:Georgia;
+		font-size:13px;
+		text-align:left;
+		width:250px;
+		text-decoration:none;
+		font-color:black;
+		line-height:1.75em;
+	}
+	
+	li #ul {
+		text-indent:20px;
+	}
+	
 	a {color:black;
 		text-decoration:none;}
 
@@ -135,10 +153,9 @@ ul {font-family:Georgia;
 h4 {font-family:Georgia;
 	font-size:11px;
 	text-align:left;
-	float:left;
+	float:right;
 	margin-top:10px;
-	margin-right:200px;
-	margin-left:100px;
+	margin-right:550px;
 	margin-bottom:20px;
 	font-color:black;
 	text-transform:uppercase;
@@ -147,12 +164,13 @@ h4 {font-family:Georgia;
 p {font-family:Georgia;
 	font-size:13px;
 	text-align:left;
-	margin-right:60px;
-	margin-left:40px;
-	margin-top:10px;
+	margin-right:100px;
+	margin-left:180px;
+	margin-top:30px;
 	margin-bottom:0px;
 	width:350px;
 	line-height:1.5em;
+	float:right;
 	}
 	
 	h5 
@@ -161,10 +179,10 @@ p {font-family:Georgia;
 			font-family:Georgia;
 			font-size:13px;
 			text-align:left;
-			margin-left:100px;
+			margin-left:70px;
 			margin-right:60px;
 			margin-bottom:0px;
-			float:left;
+			float:right;
 			width:350px;
 			line-height:1.5em;
 	}
