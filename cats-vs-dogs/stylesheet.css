@@ -133,15 +133,16 @@ footer {
 
 footer a:link {color:#CC0000;text-decoration:none;}
 
-#p1 {
+footer #p1 {
 	float:left;
+	margin-top:10px;
+	margin-left:0px;
 	text-align:left;
 	font:Helvetica;
 	font-size:14px;
-	text-indent:10px;
 }
 
-#p2 {
+footer #p2 {
 	float:right;
 	text-align:left;
 	font:Helvetica;
