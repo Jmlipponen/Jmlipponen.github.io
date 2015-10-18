@@ -90,14 +90,17 @@ header #site-header {
 		background-color:#FAF8E6;
 		height:22%;
 		text-family:Helvetica;
-		text-size:20px;
+		text-size:18px;
 		text-decoration:none;
-		text-color:#804224;	
+		color:#804224;	
 	}
 	
+	/* nav background bar */
 	#menu-wrapper {
+		height:40px; 
 		width:100%;
 		background-color:#804224;
+		
 	}
 	
 	#main-menu {
@@ -107,7 +110,6 @@ header #site-header {
 	
 	#main-menu li {
 		float:left;
-		height:50px; /* temporary set width */
 	}
 	
 	#sidebar {
@@ -127,7 +129,6 @@ header #site-header {
 	
 	#footer-wrapper {
 		clear:both;
-		background-color:#FAF8E6;
 		width:100%;
 		height:100px;
 	}
@@ -144,7 +145,7 @@ header #site-header {
 	
 	#site-footer {
 		margin:0 auto;
-		width:80%;
+		width:100%;
 	}
 	
 	/* login contact */
@@ -171,32 +172,39 @@ header #site-header {
 		
 	} */
 
+	/* home shop about us etc */
 	nav#main-menu 
 	{ 
-		height:30px; 
-		background-color:#804224; 
 		font-color:black;
 		font-size:20px; 
 		text-transform:uppercase; 
 		font-family:Helvetica;
-		padding:20px; 
+		padding:5px; 
 		margin:5px; 
 		display:inline-block; 
 		top:10px; 
 		right:20px;
 		text-decoration:none; }
 		
-		
+		/* home shop about us etc */
 	nav#main-menu ul li { 
 		display:block; 
 		float:left; 
-		padding:0 5px; }
+		padding:5px 5px;
+		margin-left:10px;
+		width:125px;}
 		
+		/* home shop about us etc */
 	nav#main-menu ul li a { 
 		display:block; 
 		color:white; 
-		padding:5px 5px; 
-		background-color:#804224; }
+		padding:0px 0px; 
+		text-decoration:none;
+		font-family:Helvetica;
+		font-size:16px;
+		font-weight:bold;
+		float:center;
+	 }
 
 	section#page-content { 
 		float:left; 
@@ -239,10 +247,14 @@ header #site-header {
 		padding:80px 0px;
 		width:100%;}	
 		
+		/* contact us follow us */
 		footer h1 {
-			text-color:#D6D6C2;
+			color:#FAF8E6;
 			font-family:Helvetica;
-			font-size:30px;
+			font-size:25px;
+			float:left;
+			margin-left:100px;
+			margin-bottom:5px;
 			background-color:none;
 		}
 		
@@ -250,10 +262,14 @@ header #site-header {
 			font-family:Helvetica;
 			font-size:15px;
 			float:left;
-			width:300px;
+			width:148px;
 			padding-top:5px;
 			line-height:1.4em;
+			color:white;
 		}
+		
+		footer ul { float:left;
+			margin-top:2px;}
 	
 	h1 {font-family:Helvetica;
 		color:#804224;
