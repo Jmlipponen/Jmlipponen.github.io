@@ -92,7 +92,7 @@ h2	{font-color:black;
 
 /* ingredients*/
 
-#ingredients {
+#Ingredients {
 	float:left;
 	width:50%;
 }
@@ -145,18 +145,18 @@ ul {font-family:Georgia;
 
 /* preparation */
 
-#preparation {
-	float:right;
+#Preparation {float:right;
 	width:50%;
+	margin-top:10px;
+	margin-right:550px;
+	margin-bottom:20px;
 }
 
 h4 {font-family:Georgia;
 	font-size:11px;
 	text-align:left;
+	margin-right:500px;
 	float:right;
-	margin-top:10px;
-	margin-right:550px;
-	margin-bottom:20px;
 	font-color:black;
 	text-transform:uppercase;
 	}
@@ -164,9 +164,8 @@ h4 {font-family:Georgia;
 p {font-family:Georgia;
 	font-size:13px;
 	text-align:left;
-	margin-right:100px;
-	margin-left:180px;
-	margin-top:30px;
+	margin-right:228px;
+	margin-top:10px;
 	margin-bottom:0px;
 	width:350px;
 	line-height:1.5em;
@@ -179,14 +178,40 @@ p {font-family:Georgia;
 			font-family:Georgia;
 			font-size:13px;
 			text-align:left;
-			margin-left:70px;
-			margin-right:60px;
+			margin-right:228px;
 			margin-bottom:0px;
 			float:right;
 			width:350px;
 			line-height:1.5em;
 	}
 	
+	h6 
+	{
+			text-indent:30px;
+			font-family:Georgia;
+			font-size:13px;
+			text-align:left;
+			margin-right:228px;
+			margin-bottom:0px;
+			float:right;
+			width:350px;
+			line-height:1.5em;
+	}
+	
+	h7 
+	{
+			text-indent:30px;
+			font-family:Georgia;
+			font-size:13px;
+			text-align:left;
+			margin-right:228px;
+			margin-bottom:0px;
+			float:right;
+			width:350px;
+			line-height:1.5em;
+	}
+	
+	/* Extra for now 
 	h6 
 	{
 			text-indent:30px;
@@ -201,7 +226,7 @@ p {font-family:Georgia;
 			line-height:1.5em;
 	}
 	
-	h7 
+	h7
 	{
 			text-indent:30px;
 			font-family:Georgia;
@@ -214,3 +239,5 @@ p {font-family:Georgia;
 			width:350px;
 			line-height:1.5em;
 		}
+
+	*/
