@@ -132,12 +132,13 @@ header #site-header {
 		clear:both;
 		width:100%;
 		height:200px;
+		margin-top:10px;
 		background-color:#804224;
 	}
 	
 	#footer-contact {
 		float:left;
-		width:50%;
+		width:30%;
 		color:#FAF8E6;
 		font-family:Helvetica;
 		font-size:25px;
@@ -145,13 +146,14 @@ header #site-header {
 	
 	#footer-follow {
 		float:right;
-		width:50%;
+		width:30%;
 		color:#FAF8E6;
 		font-family:Helvetica;
 		font-size:25px;
 	}
 	
 	#site-footer {
+		margin-top:10px;
 		margin:0 auto;
 		width:100%;
 	}
@@ -224,8 +226,6 @@ header #site-header {
 		font-weight:bold;
 		float:left;
 	 }
-
-	 
 	 
 	section#page-content { 
 		float:left; 
@@ -269,13 +269,6 @@ header #site-header {
 	}
 	
 	aside img #vintage-bots {margin-bottom:20px;}
-	
-	
-		
-		footer ul { float:left;
-			margin-top:0px;
-			width:250px;
-			height:2px;} 
 			
 			/* complete page contents */
 	
@@ -316,6 +309,7 @@ header #site-header {
 		float:left;
 		width:148px;
 		padding-top:5px;
+		padding-bottom:40px;
 		line-height:1.4em;
 		color:white;
 	}
