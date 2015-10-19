@@ -55,30 +55,30 @@ table {
 
 
 
-body { width:960px; margin:0 auto; }
-
+body { width:960px; margin:0 auto;}
 
 #site-wrapper
 { 	
-	background-color::#804224;
+	background-color:#804224;
 	width:100%;
-	height:100px;
+	height:95px;
 }
 
 header #site-header {
 	position:relative; 
-	height:80px;
+	height:145px;
 	width:100%;
-	background-color::#804224;
+	background-color:#FAF8E6;
 	}
 
 	#site-header h1 a { 
-	  display:block;	
+	  display:block;
 	  text-indent:-9999px;    
 	  position:absolute;
 		top:0;
 		left:0;
-	  width:300px; height:80px;
+		color:#804224;
+	  width:100%; height:145px;
 	  background:url(logo.png) no-repeat left top;
 	}
 	
@@ -86,7 +86,7 @@ header #site-header {
 	#site-header nav {
 		position:absolute;
 		top:0;
-		right:300px;
+		right:100px;
 		background-color:#FAF8E6;
 		height:22%;
 		text-family:Helvetica;
@@ -98,7 +98,7 @@ header #site-header {
 	/* nav background bar */
 	#menu-wrapper {
 		height:40px; 
-		width:100%;
+		width:120%;
 		background-color:#804224;
 		
 	}
@@ -130,7 +130,8 @@ header #site-header {
 	#footer-wrapper {
 		clear:both;
 		width:100%;
-		height:100px;
+		height:200px;
+		background-color:#804224;
 	}
 	
 	#footer-contact {
@@ -191,8 +192,8 @@ header #site-header {
 		display:block; 
 		float:left; 
 		padding:5px 5px;
-		margin-left:10px;
-		width:125px;}
+		margin-left:80px;
+		width:60px;}
 		
 		/* home shop about us etc */
 	nav#main-menu ul li a { 
@@ -203,24 +204,26 @@ header #site-header {
 		font-family:Helvetica;
 		font-size:16px;
 		font-weight:bold;
-		float:center;
+		float:left;
 	 }
 
+	 
+	 
 	section#page-content { 
 		float:left; 
 		width:550px; 
 		padding:50px 20px; }
 	
+		/*
 	aside#sidebar { 
 		float:right; 
 		width:250px; 
 		padding:50px 10px;
 		margin-right:100px; 	
 		margin-left:50px;
-	}
+	} */
 	
 	aside h1 { 
-		float:left; 
 		text-align:left;
 		text-decoration:none;
 		font-family:Helvetica;
@@ -228,25 +231,25 @@ header #site-header {
 		font-size:25px;
 		text-transform:uppercase;
 		font-weight:bold;
+		width:300px;
+		margin-top:70px;
 	}
 	
-	aside li {
-		float:left;
-		width:60%;
+	aside ul { width:80%;
 		line-height:1.2em;
 		text-decoration:none;
 		font-family:Helvetica;
-		font-color:#804224;
 		font-size:15px;
-		padding-bottom:17px;
+		color:#804224;
 	}
-
-	footer#site-footer {
-		clear:both; 
-		background-color:#804224; 
-		padding:80px 0px;
-		width:100%;}	
-		
+	
+	aside li {
+		text-decoration:none;
+		text-color:#804224;
+		padding-bottom:12px;
+		color:#804224;
+	} 
+	
 		/* contact us follow us */
 		footer h1 {
 			color:#FAF8E6;
@@ -258,18 +261,10 @@ header #site-header {
 			background-color:none;
 		}
 		
-		footer p {
-			font-family:Helvetica;
-			font-size:15px;
-			float:left;
-			width:148px;
-			padding-top:5px;
-			line-height:1.4em;
-			color:white;
-		}
-		
 		footer ul { float:left;
-			margin-top:2px;}
+			margin-top:2px;} 
+			
+			/* complete page contents */
 	
 	h1 {font-family:Helvetica;
 		color:#804224;
@@ -300,6 +295,16 @@ header #site-header {
 		float:left;
 		width:86%;
 		line-height:1.2em;
+	}
+	
+	footer p {
+		font-family:Helvetica;
+		font-size:15px;
+		float:left;
+		width:148px;
+		padding-top:5px;
+		line-height:1.4em;
+		color:white;
 	}
 
 
