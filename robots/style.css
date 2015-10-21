@@ -223,10 +223,9 @@ header #site-header {
 	}
 	
 	footer li {
-		width:18%;
+		width:26%;
 		height:50px;
 		float:right;
-		padding:5px;
 	}
 	
 	/* login contact */
@@ -274,13 +273,13 @@ header #site-header {
 		margin-top:110px;
 	}
 	
-	aside ul { width:80%;
+	 aside ul { width:80%;
 		line-height:1.2em;
 		text-decoration:none;
 		font-family:Helvetica;
 		font-size:15px;
 		color:#804224;
-	}
+	} 
 	
 	aside li {
 		text-decoration:none;
