@@ -143,19 +143,18 @@ header #site-header {
 	nav#main-menu ul li { 
 		display:block; 
 		float:left; 
-		text-indent:80px;
-		padding:5px 5px;
-		width:200px;
-		height:20px;}
+		text-indent:120px;
+		padding:10px 0px;
+		width:10%;
+		height:0px;}
 		
 		/* home shop about us etc */
 	nav#main-menu ul li a { 
 		display:block; 
 		color:white;
-		margin-left:10px;
 		text-decoration:none;
 		font-family:Helvetica;
-		font-size:16px;
+		font-size:20px;
 		font-weight:bold;
 		float:left;
 	 }
