@@ -55,7 +55,7 @@ table {
 
 
 
-body { width:960px; margin:0 auto;}
+body { margin:0 auto;}
 
 #site-wrapper
 { 	
@@ -318,7 +318,7 @@ header #site-header {
 		padding-bottom:10px;
 		text-align:left;
 		float:left;
-		width:86%;
+		width:65%;
 		line-height:1.2em;
 	}
 	
