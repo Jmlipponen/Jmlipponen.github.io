@@ -308,10 +308,9 @@ header #site-header {
 	}
 	
 	footer li {
-		width:5px;
-		height:90px;
-		margin-top:5px;
-		float:right;
+		width:55px;
+		margin-top:50px;
+		float:left;
 	}
 	
 	/* login contact */
