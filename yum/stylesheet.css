@@ -54,12 +54,11 @@ table {
 /* END RESET */ 
 /*h1 is the Recipe 2 link, h2 is title, nav is servings */
 
-/* recipe 2 link*/ 
+/* recipe 2 link */ 
 	h1  {font-family:Georgia;
 	font-size:15px;
 	float:left;
-	margin-top:0px;
-	margin-left:20px;
+	margin-top:0px;	/* 	margin-left:40px; */
 	text-align:left;
 	font-color:black;
 	}
@@ -68,9 +67,9 @@ table {
 nav {font-family:Georgia;
 	font-size:12px;
 	text-align:right;
-	margin-top:40px;
-	margin-bottom:40px;
-	margin-right:220px;
+	margin-top:50px;
+	margin-bottom:30px;
+	margin-right:200px;
 	line-height:1.4em;
 	font-color:black;	
 	}
@@ -82,12 +81,11 @@ h2	{font-color:black;
 	font-family:Georgia; 
 	float:left;
 	font-weight:normal; 
-	font-size:20px;
-	text-indent:5px; 
+	font-size:22px; 
 	line-height:1.4em; 
 	text-align:left; 
 	text-decoration:none;
-	margin-left:175px;
+	margin-left:7%;	/* margin-left:175px; */
 	}
 
 /* ingredients*/
@@ -103,29 +101,28 @@ h3 {font-family:Georgia;
 	float:left;
 	line-height:1.4em;
 	margin-right:10px;
-	margin-left:180px;
-	margin-bottom:20px;
+	margin-left:25%;				/* margin-left:180px; */
+	margin-bottom:0px;
 	font-color:black;
 	text-transform:uppercase;
-	}
+	} 
 	
 ul {font-family:Georgia;
 	font-size:13px;
 	text-align:left;
-	margin-left:175px;
-	padding-top:20px;
+	margin-left:28%;
+	padding-top:30px;
 	width:250px;
 	text-decoration:none;
 	font-color:black;
-	line-height:1.75em;
-	text-indent:20px;
+	line-height:1.75em; 	/* text-indent:20px; */
 	}
 	
-	li #detail {text-indent:30px;}
+/* 	li #detail {text-indent:30px;} */
 	
-	ul p #Accompaniment {
+/*	ul p #Accompaniment {
 		margin-top:5px;
-	}
+	} */
 	
 	a {color:black;
 		text-decoration:none;}
@@ -133,10 +130,7 @@ ul {font-family:Georgia;
 /* preparation */
 
 #Preparation {float:right;
-	width:50%;
-	margin-top:10px;
-	margin-right:550px;
-	margin-bottom:20px;
+	width:50%;	margin-top:10px;
 }
 
 h4 {font-family:Georgia;
@@ -146,96 +140,16 @@ h4 {font-family:Georgia;
 	float:right;
 	font-color:black;
 	text-transform:uppercase;
+	margin-bottom:15px;
 	}
 
 p {font-family:Georgia;
 	font-size:13px;
 	text-align:left;
 	margin-right:228px;
-	margin-top:10px;
 	margin-bottom:0px;
 	width:350px;
-	line-height:1.5em;
+	line-height:1.6em;
 	float:right;
+	margin-left:3em;text-indent:3em;
 	}
-	
-	h5 
-	{
-			text-indent:30px;
-			font-family:Georgia;
-			font-size:13px;
-			text-align:left;
-			margin-right:228px;
-			margin-bottom:0px;
-			float:right;
-			width:350px;
-			line-height:1.5em;
-	}
-	
-	h6 
-	{
-			text-indent:30px;
-			font-family:Georgia;
-			font-size:13px;
-			text-align:left;
-			margin-right:228px;
-			margin-bottom:0px;
-			float:right;
-			width:350px;
-			line-height:1.5em;
-	}
-	
-	h7 
-	{
-			text-indent:30px;
-			font-family:Georgia;
-			font-size:13px;
-			text-align:left;
-			margin-right:228px;
-			margin-bottom:0px;
-			float:right;
-			width:350px;
-			line-height:1.5em;
-	}
-	
-	/*Extra for now 
-	
-	li {
-		left-margin:160px;
-		font-family:Georgia;
-		font-size:13px;
-		text-align:left;
-		width:250px;
-		text-decoration:none;
-		font-color:black;
-		line-height:1.75em;
-	}
-	
-	h6 
-	{
-			text-indent:30px;
-			font-family:Georgia;
-			font-size:13px;
-			text-align:left;
-			margin-left:100px;
-			margin-right:60px;
-			margin-bottom:0px;
-			float:left;
-			width:350px;
-			line-height:1.5em;
-	}
-	
-	h7
-	{
-			text-indent:30px;
-			font-family:Georgia;
-			font-size:13px;
-			text-align:left;
-			margin-left:615px;
-			margin-right:60px;
-			margin-bottom:0px;
-			float:left;
-			width:350px;
-			line-height:1.5em;
-		}
-	*/
