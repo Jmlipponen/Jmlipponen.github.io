@@ -63,6 +63,9 @@ table {
 	font-color:black;
 	}
 	
+	a {color:black;
+		text-decoration:none;}
+	
 /* servings */
 nav {font-family:Georgia;
 	font-size:12px;
@@ -93,12 +96,11 @@ h2	{font-color:black;
 #Ingredients {
 	float:left;
 	width:50%;
-}
+} 
 
 h3 {font-family:Georgia;
 	font-size:11px;
 	text-align:left;
-	float:left;
 	line-height:1.4em;
 	margin-right:10px;
 	margin-left:25%;				/* margin-left:180px; */
@@ -111,7 +113,7 @@ ul {font-family:Georgia;
 	font-size:13px;
 	text-align:left;
 	margin-left:28%;
-	padding-top:30px;
+	padding-top:15px;
 	width:250px;
 	text-decoration:none;
 	font-color:black;
@@ -123,33 +125,30 @@ ul {font-family:Georgia;
 /*	ul p #Accompaniment {
 		margin-top:5px;
 	} */
-	
-	a {color:black;
-		text-decoration:none;}
 
 /* preparation */
 
 #Preparation {float:right;
-	width:50%;	margin-top:10px;
+	width:50%; margin-top:10px;
 }
 
 h4 {font-family:Georgia;
 	font-size:11px;
 	text-align:left;
-	margin-right:500px;
-	float:right;
+	margin-left:6%;
 	font-color:black;
 	text-transform:uppercase;
 	margin-bottom:15px;
 	}
-
-p {font-family:Georgia;
-	font-size:13px;
-	text-align:left;
-	margin-right:228px;
-	margin-bottom:0px;
-	width:350px;
-	line-height:1.6em;
-	float:right;
-	margin-left:3em;text-indent:3em;
-	}
+	
+p {
+	/* margin-right:32%; */
+		font-family:Georgia;
+		/* float:right; */
+		font-size:13px;
+		text-align:left;
+		margin-bottom:0px;
+		width:350px;
+		line-height:1.6em;
+		margin-left:3em; text-indent:2em; 
+		}
