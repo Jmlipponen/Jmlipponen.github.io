@@ -57,28 +57,27 @@ table {
 
 body { margin:0 auto;}
 
-#site-header h1 a { 
-  display:block;
-  /* text-indent:-9999px;  */ 
-  position:absolute;
-	top:5px;
-	left:100px;;
-  width:100%; height:135px;
-background:url(images/logo.png) no-repeat left top;
+ #site-header h1 a { 
+  	display:block;
+  /* text-indent:-9999px;  */
+  	position:absolute;
+	left:150px;
+  	width:20%;
+ 	height:5%;
+/* background:url(images/logo.png) no-repeat left top; */
   color:#804224; background-color:#FAF8E6;
-}
+} 
 
 #site-wrapper
 { 	
 	background-color:#FAF8E6;
 	width:100%;
-	height:90px;
+	height:120px;
 	text-decoration:none; 
 }
 
 header #site-header {
-	position:relative; 
-	height:145px;
+	position:relative;  
 	width:100%;
 	text-decoration:none; 
 	}
@@ -87,22 +86,22 @@ header #site-header {
 	#site-header nav {
 		position:absolute;
 		top:0px;							
-		right:0px;
-		padding-top:5px;
+		right:100px;
+		margin-top:10px;
 		background-color:#FAF8E6;
-		height:20%; width:160px;
+	 	width:160px;
 		padding-left:410px;
-		text-family:Helvetica;
-		text-size:18px;
+		font-family:Helvetica;
+		font-size:14px;
 		text-decoration:none;
-		color:#804224; text-color:#804224;
+		font-color:#804224;
 		float:right;
 	} 
 	
 	#top-nav a:link {color:#804224; text-decoration:none;
 	padding-left:5px; padding-right:5px;}
 	
-	#top-nav {background-color:#FAF8E6; text-color:#804224;
+	#top-nav {background-color:#FAF8E6; font-color:#804224;
 		text-decoration:none;}
 	
 	/* mini separating bar in top nav bar 
@@ -129,7 +128,7 @@ header #site-header {
 	
 	#main-menu {
 		margin:0 auto;
-		width:80%; /* keep percent the same for widths */
+	 	width:70%; /* keep percent the same for widths */
 	}
 	
 	#main-menu li {
@@ -146,17 +145,18 @@ header #site-header {
 		margin-top:8px;
 		margin-bottom:5px; 
 		display:inline-block; 
-		text-decoration:none; } /*top:10px; 
+		text-decoration:none;
+		width:100%;
+	 	} /*top:10px; 
 		right:20px; */
 		
 		/* home shop about us etc */
 	nav#main-menu ul li {
 		display:block; 
 		float:left; 
-		text-indent:120px;
 		padding-top:8px;
 		padding-bottom:5px;
-		width:16%;}							/* color:red*/
+		}						
 		
 		/* home shop about us etc */
 	nav#main-menu ul li a { 
@@ -164,9 +164,11 @@ header #site-header {
 		color:white;
 		text-decoration:none;
 		font-family:Helvetica;
-		font-size:20px;
+		font-size:20px; 
 		font-weight:bold;
 		float:left;
+		width:100%;
+		margin-left:40px;
 	 }
 	 
 	section#page-content { 
@@ -188,13 +190,73 @@ header #site-header {
 	
 	#content-wrapper {
 		margin:0 auto;
-		width:80%; 				/* color:red; */
+		width:80%; 				
+	}
+	
+	aside h1 { 
+		text-align:left;
+		text-decoration:none;
+		font-family:Helvetica;
+		color:#804224;
+		font-size:25px;
+		text-transform:uppercase;
+		font-weight:bold;
+		width:300px;
+		margin-top:110px;
+		margin-bottom:5px;
+	}
+	
+	 aside ul { width:80%;
+		line-height:1.2em;
+		text-decoration:none;
+		font-family:Helvetica;
+		font-size:15px;
+		color:#804224;
+	} 
+	
+	aside li {
+		text-decoration:none;
+		font-color:#804224;
+		padding-bottom:12px;
+		color:#804224;
+	}
+			
+			/* complete page contents */
+	
+#page	h1 {font-family:Helvetica;
+		color:#804224;
+		font-size:45px;
+		text-transform:uppercase;
+		font-weight:bold;	
+		margin-top:50px;
+		margin-bottom:5px;
+		margin-right:10px;
+		margin-bottom:10px;
+		text-align:left;}
+		
+	h2 	{font-family:Helvetica;
+		color:#804224;
+		font-size:25px;
+		text-transform:uppercase;
+		font-weight:bold;
+		padding-top:0px;
+		padding-bottom:5px;
+		float:left;
+		text-align:left;
+	}
+	
+		p {
+		padding-top:5px;
+		padding-bottom:10px;
+		text-align:left;
+		float:left;
+		width:65%;
+		line-height:1.2em;
 	}
 	
 	#footer-wrapper {
 		clear:both;
-		width:100%;
-		height:205px;
+		width:100%; height:205px; 
 		background-color:#804224;
 	}
 	
@@ -204,6 +266,18 @@ header #site-header {
 		color:#FAF8E6;
 		font-family:Helvetica;
 		font-size:25px;
+	} 				
+	
+	footer p {
+		font-family:Helvetica;
+		font-size:12px;
+		float:left;
+		width:148px;
+		padding-top:5px;
+		margin-left:140px;
+		padding-bottom:40px;
+		line-height:1.6em;
+		color:white;
 	}
 	
 	#footer-follow {
@@ -217,7 +291,7 @@ header #site-header {
 	
 	#site-footer {
 		margin:0 auto;
-		width:100%;
+		width:100%; background-color:#804224;
 	}
 	
 	/* contact us follow us */
@@ -226,15 +300,18 @@ header #site-header {
 		font-family:Helvetica;
 		font-size:25px;
 		float:left;
-		margin-left:100px;
+		/* margin-left:140px; */
 		margin-bottom:5px;
+		margin-top:20px;
 		background-color:none;
+		text-transform:uppercase;
+		font-weight:bold;
 	}
 	
 	footer li {
-		width:26%;
-		height:50px;
-		float:right;
+		width:55px;
+		margin-top:50px;
+		float:left;
 	}
 	
 	/* login contact */
@@ -269,78 +346,6 @@ header #site-header {
 		margin-right:100px; 	
 		margin-left:50px;
 	} */
-	
-	aside h1 { 
-		text-align:left;
-		text-decoration:none;
-		font-family:Helvetica;
-		color:#804224;
-		font-size:25px;
-		text-transform:uppercase;
-		font-weight:bold;
-		width:300px;
-		margin-top:110px;
-	}
-	
-	 aside ul { width:80%;
-		line-height:1.2em;
-		text-decoration:none;
-		font-family:Helvetica;
-		font-size:15px;
-		color:#804224;
-	} 
-	
-	aside li {
-		text-decoration:none;
-		text-color:#804224;
-		padding-bottom:12px;
-		color:#804224;
-	}
-			
-			/* complete page contents */
-	
-	h1 {font-family:Helvetica;
-		color:#804224;
-		font-size:45px;
-		text-transform:uppercase;
-		font-weight:bold;
-		margin-top:50px;
-		margin-bottom:5px;
-		margin-right:10px;
-		margin-bottom:10px;
-		text-align:left;}
-		
-	h2 	{font-family:Helvetica;
-		color:#804224;
-		font-size:25px;
-		text-transform:uppercase;
-		font-weight:bold;
-		padding-top:0px;
-		padding-bottom:5px;
-		float:left;
-		text-align:left;
-	}
-	
-	p {
-		padding-top:5px;
-		padding-bottom:10px;
-		text-align:left;
-		float:left;
-		width:65%;
-		line-height:1.2em;
-	}
-	
-	footer p {
-		font-family:Helvetica;
-		font-size:12px;
-		float:left;
-		width:148px;
-		padding-top:5px;
-		margin-left:100px;
-		padding-bottom:40px;
-		line-height:1.4em;
-		color:white;
-	}
 
 
 
