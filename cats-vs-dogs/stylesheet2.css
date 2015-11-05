@@ -359,6 +359,7 @@ footer #p2 { padding-right:10%;
 
 
 
+h1
 @font-face {
     font-family: 'league_gothiccondensed_italic';
     src: url('leaguegothic-condenseditalic-webfont.eot');
@@ -374,7 +375,7 @@ footer #p2 { padding-right:10%;
 
 
 
-
+h1
 @font-face {
     font-family: 'league_gothicCnRg';
     src: url('leaguegothic-condensedregular-webfont.eot');
@@ -390,7 +391,7 @@ footer #p2 { padding-right:10%;
 
 
 
-
+h1
 @font-face {
     font-family: 'league_gothicitalic';
     src: url('leaguegothic-italic-webfont.eot');
@@ -406,7 +407,7 @@ footer #p2 { padding-right:10%;
 
 
 
-
+h1
 @font-face {
     font-family: 'league_gothicregular';
     src: url('leaguegothic-regular-webfont.eot');
