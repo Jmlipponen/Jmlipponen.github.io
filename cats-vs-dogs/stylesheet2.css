@@ -45,24 +45,140 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} 
 
 
 /* End of Reset */
+
+
+
+/* nav li {
+	margin:0 auto;
+	display:inline-block;
+	width:8%;
+	float:center;	
+	font-color:black;
+	font:Helvetica;
+	font-size:25px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-top:5px;
+	margin-left:0px;
+	margin-bottom:0px;
+	text-align:center;
+	
+} 
+
+nav ul { margin-left:150px; } */
+
+/* text-indent:80px; 
+	padding-left:90px;
+	padding-right:20px;
+*/
+
+/* nav {
+	border-top:4px solid black;
+	margin-top:40px;
+	border-bottom:4px solid black;
+	height:35px; 
+	font-color:black; text-decoration:none;
+}
+
+nav a:link {text-decoration:none; color:black;} */
+
+/* mine nav a {color:black; text-decoration:none;} */
+	
+/* h1 {float:center;
+	padding-top:20px;
+	padding-bottom:120px;
+	padding-left:350px;
+	width:35%;
+	}
+
+h2 {float:left;
+	font:Helvetica;
+	font-size:24px;
+	font-weight:bold;
+	margin-top:10px;
+	margin-left:17%;
+}
+
+#article1 {
+	float:left;
+	width:40%;
+	font:Helvetica;
+	font-size:16px;	
+	margin-top:10px;
+	margin-left:15px;
+	margin-right:0px;
+	background-color:red;
+}
+
+#article2 {
+	float:left;
+	width:40%;
+	font:Helvetica;
+	font-size:16px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:50px;
+	margin-right:15px;
+}
+
+p { padding-top:15px;
+	
+	padding-bottom:10px;
+	line-height:1.2em;
+	width:100%; 
+	float:left;
+	margin-left:5px;
+	}
+	
+footer #p1 {
+	border-top:4px solid black;
+	clear:both;
+}
+
+footer a:link {color:#CC0000;text-decoration:none;}
+
+footer #p1 {
+	float:left;
+	margin-top:5px;
+	margin-left:0px;
+	text-align:left;
+	font:Helvetica;
+	font-size:14px;
+}
+
+footer #p2 {
+	float:right;
+	text-align:left;
+	font:Helvetica;
+	font-size:14px;
+	margin-right:100px;
+	margin-bottom:80px;
+}
+
+img {
+	width:100%;
+	float:left;
+	font-color:black;
+	} */
 
 /* *** fix nav bar, footers, side space **** */
 
 nav li {
 	margin:0 auto;
 	display:inline-block;
-	width:10%; /* max-width:100% */
-	float:center;	
+	width:8%; /* max-width:100% */
+	float:left;	
 	font-color:black;
 	font:Helvetica;
-	font-size:1.5em;
+	font-size:1.4em;
 	font-weight:bold;
 	text-transform:uppercase;
-	margin-top:1%;
+	padding-top:1.2%;
+	padding-bottom:0%;
 	text-align:center;	
 } 
 
@@ -75,20 +191,20 @@ nav li {
 
 nav {
 	border-top:4px solid black;
-	margin-top:5%; /* 40px */
 	border-bottom:4px solid black;
 	height:2.5em;
  /* height:35px */
 	font-color:black; text-decoration:none;
+	color:black;
+/*	padding-top:0.5%; * 40px */
+	padding-left:12%;
 }
 
-nav ul { margin-bottom:1%}
-
-nav a:link {text-decoration:none; color:black;}
+nav a:link {text-decoration:none; color:black; font-color:black;}
 	
-h1 {float:center;
+ h1 {left:50%;
 	padding-top:2%;
-	padding-bottom:8%;
+	padding-bottom:12%;
 	padding-left:25%;
 	width:35%;
 	}
@@ -97,41 +213,42 @@ h2 {float:left;
 	font:Helvetica;
 	font-size:1.5em;
 	font-weight:bold;
-	margin-top:3%;
-	margin-bottom:0.5%;
-	margin-left:17%;
+	padding-top:3%;
+	padding-bottom:0.5%;
+	padding-left:15%;
 }
 
 #article1 {
 	float:left;
 	width:40%;
 	font:Helvetica;
-	font-size:0.9em; /* 16px */	
-	margin-top:1%;
-	margin-left:1%;
+	font-size:1em; /* 16px */	
+	padding-top:1%;
+	/* padding-left:1%;  */
 }
 
 #article2 {
 	float:right;
 	width:40%;
 	font:Helvetica;
-	font-size:0.9em;
-	margin-top:1%;
-	margin-bottom:1%;
-	margin-right:17%;
+	font-size:1em;
+	padding-top:1%;
+	padding-bottom:1%;
+	padding-right:15%;
 /*	margin-left:3%; */
 }
 
-p { padding-top:2%;
-	padding-left:16%;
+#article-p { 
+	padding-left:15%;
 	padding-bottom:2%;
+	padding-top:2%;
 	line-height:1.2em;
 	width:100%; 
 	float:left;
-	margin-left:1%;
+	/* margin-left:1% */
 	}
 	
-footer {
+footer { 
 	border-top:4px solid black;
 	clear:both;
 }
@@ -140,78 +257,98 @@ footer a:link {color:#CC0000;text-decoration:none;}
 
 footer #p1 {
 	float:left;
-	margin-top:0.25%;
+	padding-top:1%;
 	text-align:left;
 	font:Helvetica;
+	padding-left:6%;
 	font-size:0.85em; /* 14px */
 }
 
 footer #p2 {
 	float:right;
+	padding-top:1%;
 	text-align:left;
 	font:Helvetica;
 	font-size:0.85em;
-	margin-top:0.25%;
+	padding-right:9%;
 	/* margin-bottom:80px; */
 }
 
 img {
-	max-width:100%;
-	margin-top:5%;
-	margin-bottom:2%;
+	width:100%;
+	padding-top:5%;
+	padding-bottom:1%;
 	float:left;
-	margin-left:17%;
-	font-color:black;
+	padding-left:15%;
 }
 
-/* @media screen and (max-width:1050px) { 
-	#img {max-width:100%; float:left; margin:  }
-	#content {float:left; width:40%; margin: 0 1%}
-	#p { }
-	#footer { }
-	#nav { } */
+
+@media screen and (max-width:575px) { 
 	
-	/* @media screen and (max-width:800px) { 
-		#img {max-width:100%; float:left; margin:  }
-		#content {float:left; width:40%; margin: 0 1%}
-		#p { }
-		#footer { }
-		#nav { } */
+h2 {	
+		font-size:1.5em;
+		padding-left:10%;
+		/* padding-left:15%; */
+	}
+ 
+ #article1 {
+	 width:100%;
+	 	font-size:1.25em;
+			padding-right:5%;
+}
+
+
+#article2 {
+ 	width:100%;
+ 		font-size:1.25em;
+			padding-right:5%;
+			float:left;
+}
+	
+	#article-p { padding-right:5%;
+		width:80%; 
+		float:left;
+		padding-left:10%;
+		padding-bottom:2%;
+		}
+	
+	img {
+		width:100%;
+		padding-top:5%;
+		padding-bottom:1%;
+		float:left;
+		padding-right:5%;
+		padding-left:0%;
+	}
+	
+	
+	nav li {
+		margin:0 auto;
+		width:50%;
+		float:left;	
+		clear:both;
+		text-align:left;}
 		
-		/* @media screen and (max-width:768px) { 
-			#img {max-width:100%; float:left; margin:  }
-			#content {float:left; width:40%; margin: 0 1%}
-			#p { }
-			#footer { }
-			#nav { } */
+		nav {
+			height:200px; /* need to change to %? */
+			padding-left:10%;
+			padding-bottom:12%;
+			padding-top:2%;
 
-			/* Attempt at writing media query, negatively changed the composition of my elements 
-			 - concept summary, where write, how many need? math, how determine widths etc? just by
-			changing the width of the browser and doing based off of judgement of line length etc?
-			- okay for rest of responsiveness? math? mixing % and pixels like I have is ok?
-			- heights: keep like are? set to auto?
-			- each browser size category: choosing when what shows and how big each piece is? */
+		} 	
 
-			/* @media screen and (max-width:1050px or 100%) { { } }			/* large desktop browser size */
-			/* nav { width: ; margin: ; float: ; display: ;}
-			h1 { width: ; margin: ; float: ; display: ;}
-			h2 { width: ; margin: ; float: ; display: ;}
-			p { width: ; margin: ; float: ; display: ;}
-			footer { width: ; margin: ; float: ; display: ;}
-			img { width: ; margin: ; float: ; display: ;} */ 
+h1 /* logo */
+	 {width:60%;
+	padding-bottom:20%;
+			
+		}
+		
+footer #p1 { padding-left:10%;
+	padding-top:2%;
+}
 
-			/* @media screen and (max-width:768px) { { } }					/* ipad browser size */
-			/* nav { width: ; margin: ; float: ; display: ;}
-			h1 { width: ; margin: ; float: ; display: ;}
-			h2 { width: ; margin: ; float: ; display: ;}
-			p { width: ; margin: ; float: ; display: ;}
-			footer { width: ; margin: ; float: ; display: ;}
-			img { width: ; margin: ; float: ; display: ;} */ 
+footer #p2 { padding-right:10%; 
+	padding-top:2%;
+}
 
-			/* @media screen and (max-width:800px) { { } }			/* phone browser size */
-			/* nav {display:none;}
-			h1 {width:50%; margin:2%; float:center; display:block;}
-			h2 {width:50%; margin:2%; float:left; display:block;}
-			p {width:50%; margin:2%; float:left; display:block;}
-			footer {width:50%; margin:100px; float:left; display:block;}
-			img {width:100%; right-margin:5%; float:left; display:block;} */
+}
