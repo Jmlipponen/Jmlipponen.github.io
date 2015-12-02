@@ -70,10 +70,6 @@ table {
 
 }
 
-#line {
-	float:right;
-}
-
 /* recipe 2 link */ 
 	h1  {font-family:"Mrs Eaves";
 	font-size:15px;
@@ -189,4 +185,9 @@ p {
 		width:350px;
 		line-height:1.6em;
 		margin-left:3em; text-indent:2em; 
+		}
+		
+		img {
+			float:right; size:0.5%;
+			padding-right:15%;
 		}
