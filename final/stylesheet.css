@@ -98,42 +98,69 @@ header {
 
 h1 {left:50%;
 padding-top:2%;
-padding-bottom:1.5%;
+padding-bottom:1.25%;
 padding-left:15%;
 width:100%;
-font-family:'Adobe Garamond', bolder;
-font-size:1.5em;
+font-family:'Adobe Garamond';
+font-weight: bold;
+font-size:1.25em;
 }
 
 h2 {float:left;
-	font:'Adobe Garamond', normal;
+	font:'Adobe Garamond';
+	font-weight: lighter;
 	font-size:1em;
-	font-weight:bold;
 	padding-bottom:1%;
 	padding-left:15%;
 }	
 
 h3 {
 	float:left;
-	font:'Adobe Garamond', medium;
-	font-size:0.95em;
+	font:'Adobe Garamond';
+	font-weight: medium;
+	font-size:0.85em;
 	padding-left:38%;
 	padding-bottom:2%;
 	padding-right:2%;
-}
+} 
 
-#p {
+nav li { 
+	/* margin:0 auto; */
+	display:inline-block;
+	width:20%;
+	float:left;	
+	font-color:black;
+	font-family:'Adobe Garamond';
+	font-weight: lighter;
+	font-size:1em;
+	text-transform:lowercase;
+	padding-top:2.5%;
+	padding-bottom:0%;
+	text-align:left;
+	text-decoration:none;	
+} 
+
+
+nav {
+	height:2em;
+	font-color:black; text-decoration:none;
+	color:black;
+}	
+
+#content2 p {
 	width:100%; 
 	float:left;
-	padding-left:20%;
-	padding-bottom:4%;
-	font:'Adobe Garamond', lighter;
+	padding-left:38%;
+	padding-bottom:2%;
+	font:'Adobe Garamond';
+	font-weight: lighter;
+	font-size:0.8em;
 	}
 
-#content2 #placeholder { float:right;
+/* #placeholder { float:center;
 	width:50%;
 	height:20%;
-} 
+} */ 
 
 #content2 {
 	float:left;
@@ -143,35 +170,25 @@ h3 {
 	padding-top:1%; text-decoration:none;
 } 
 
+#content2 img {
+	width:100%;
+	padding-top:2%;
+	padding-bottom:2%;
+	float:left;
+	padding-left:38%;
+}
+
+#bullet {display:none;}
+
+
 /* nav li {
 	position:fixed;
     background-color:white;
 } */
 
-nav li {
-	margin:0 auto;
-	display:inline-block;
-	width:20%; 
-	float:left;	
-	font-color:black;
-	font-family:'Adobe Garamond', lighter;
-	font-size:0.9em;
-	font-weight:bold;
-	text-transform:lowercase;
-	padding-top:1.2%;
-	padding-bottom:0%;
-	text-align:center;	
-} 
-
-
-nav {
-	height:2.5em;
-	font-color:black; text-decoration:none;
-	color:black;
-}	
-
 nav li a:link {text-decoration:none; color:black; font-color:black;
-	font-family:'Adobe Garamond', normal;} 
+	font-family:'Adobe Garamond';
+	font-weight:normal;} 
 
 a:link    {color:black; background-color:transparent; text-decoration:none}
 a:visited {color:black; background-color:transparent; text-decoration:none}
@@ -206,7 +223,8 @@ footer #p1 {
 	float:left;
 	padding-top:1%;
 	text-align:left;
-	font:'Adobe Garamond', lighter;
+	font:'Adobe Garamond';
+	font-weight: lighter;
 	padding-left:2%;
 	padding-bottom:2%;
 	font-size:0.85em;
@@ -216,22 +234,12 @@ footer #p2 {
 	float:right;
 	padding-top:1%;
 	text-align:left;
-	font:'Adobe Garamond', lighter;
+	font:'Adobe Garamond';
+	font-weight: lighter;
 	font-size:0.85em;
 	padding-right:2%;
 	padding-bottom:2%;
 }
-
-#content2 img {
-	width:100%;
-	padding-top:2%;
-	padding-bottom:2%;
-	float:left;
-	padding-left:38%;
-}
-
-#bullet {display:none;}
-
 
 
 
