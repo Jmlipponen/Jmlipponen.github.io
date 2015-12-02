@@ -84,7 +84,7 @@ table {
 <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script> */
 
 
-#logo {
+header {
 	position:fixed;
     background-color:white;
 	padding-bottom:0.5%;
@@ -145,7 +145,17 @@ nav {
 	height:2em;
 	font-color:black; text-decoration:none;
 	color:black;
-}	
+}
+
+#content1 p {
+	width:100%; 
+	float:left;
+	padding-left:38%;
+	padding-bottom:2%;
+	font:'Adobe Garamond';
+	font-weight: lighter;
+	font-size:0.8em;
+	}	
 
 #content2 p {
 	width:100%; 
@@ -235,7 +245,7 @@ footer #p1 {
 	text-align:left;
 	font:'Adobe Garamond';
 	font-weight: lighter;
-	padding-left:2%;
+	padding-left:5%;
 	padding-bottom:2%;
 	font-size:0.85em;
 }
@@ -247,7 +257,7 @@ footer #p2 {
 	font:'Adobe Garamond';
 	font-weight: lighter;
 	font-size:0.85em;
-	padding-right:2%;
+	padding-right:5%;
 	padding-bottom:2%;
 }
 
