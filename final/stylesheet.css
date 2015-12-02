@@ -213,7 +213,7 @@ nav li a:link {text-decoration:none; color:black; font-color:black;
 	font-weight:normal;} 
 
 a:link    {color:black; background-color:transparent; text-decoration:none}
-a:visited {color:#800000; background-color:transparent; text-decoration:none}
+a:visited {color:#b03060; background-color:transparent; text-decoration:none}
 a:hover   {color:black; background-color:transparent; text-decoration:underline}
 
 /* #article2 {
