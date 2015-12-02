@@ -263,7 +263,7 @@ header #site-header {
 	
 	#footer-contact {
 		float:left;
-		width:30%;
+		width:30%; /* width:20%; */
 		color:#FAF8E6;
 		font-family:Helvetica;
 		font-size:25px;
