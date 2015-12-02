@@ -84,7 +84,7 @@ table {
 <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script> */
 
 
-header {
+#logo {
 	position:fixed;
     background-color:white;
 	padding-bottom:0.5%;
@@ -92,7 +92,7 @@ header {
 
 #logo {	
 	float:left;
-	width:20%; padding-left:10%;
+	width:20%; padding-left:20%;
 	
 }
 
