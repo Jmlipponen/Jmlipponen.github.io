@@ -145,10 +145,8 @@ nav {
 	font-size:0.8em;
 }
 
-/* #placeholder { float:center;
-	width:50%;
-	height:20%;
-} */ 
+#placeholder { float:center;
+} 
 
 #content2 {
 	float:left;
