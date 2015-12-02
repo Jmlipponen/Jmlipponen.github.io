@@ -156,6 +156,16 @@ nav {
 	font-weight: lighter;
 	font-size:0.8em;
 	}
+	
+#content2 a {
+	width:100%; 
+	float:left;
+	padding-left:38%;
+	padding-bottom:2%;
+	font:'Adobe Garamond';
+	font-weight: lighter;
+	font-size:0.8em;
+}
 
 /* #placeholder { float:center;
 	width:50%;
