@@ -82,13 +82,12 @@ h3 {
 	font-size:1.2em;
 	padding-bottom:2%;
 	padding-left:8%;
-	padding-top:3%;
+	padding-top:3.5%;
 } 
 
 nav li { 
 	/* margin:0 auto; */
-	display:inline-block;
-/*	width:20%; */
+	display:inline-block; 
 	float:left;	
 	font-color:black;
 	font-family:'Adobe Garamond';
@@ -97,20 +96,60 @@ nav li {
 	text-transform:lowercase;
 	text-align:left;
 	text-decoration:none;
-	background:white; opacity: 0.5;
-	margin-left:14%;
-	padding:2%;
+	background:white; opacity: 0.7;
 } 
 
-li #Home {padding-left:16%;}
+ul {
+    border: 1px solid white;
+    background-color: white;
+}
 
+li a {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:block;
+    color:white;
+    text-align:left;
+    padding: 10px 14px;
+    text-decoration:none;
+}
+
+li a:hover {
+   	background:white; opacity: 0.6;
+}
+
+.active {
+    background-color:gray;
+}
+
+nav li {
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right:none;
+}
 
 nav {
 	height:2em;
 	font-color:black; text-decoration:none;
-	color:black;
 	position:fixed;
-	width:50%;
+	width:100%;
+	background-color:white;
+	margin-left:7%;
 }
 
 #content1 p {
@@ -128,14 +167,20 @@ nav {
 	font:'Adobe Garamond';
 	font-weight: lighter;
 	font-size:1.25em;
+	padding-left:13%;
+	width:73%;
 	}
 	
 #content2 a{
-	float:left;
+	padding-left:8%;
 	padding-bottom:2%;
 	font:'Adobe Garamond';
-	font-weight: lighter;
-	font-size:0.8em;
+	font-weight:lighter;
+	font-size:1em;
+}
+
+#content2 ul {
+	float:center;
 }
 
 #content2 {
@@ -145,11 +190,9 @@ nav {
 } 
 
 #content2 img {
-	padding-top:2%;
+	padding-top:4%;
 	padding-bottom:2%;
-	float:left;
-	padding-left:15%;
-/*	padding-left:38%; */
+	padding-left:5%;
 }
 
 #bullet {display:none;}
@@ -162,7 +205,7 @@ nav {
 
 nav li a:link {text-decoration:none; color:black; font-color:black;
 	font-family:'Adobe Garamond';
-	font-weight:normal;} 
+	font-weight:lighter;} 
 
 a:link    {color:black; background-color:transparent; text-decoration:none}
 a:visited {color:black; background-color:transparent; text-decoration:none}
@@ -199,7 +242,7 @@ footer #p1 {
 	text-align:left;
 	font:'Adobe Garamond';
 	font-weight: lighter;
-	padding-left:5%;
+	padding-left:8%;
 	padding-bottom:2%;
 	font-size:0.9em;
 }
