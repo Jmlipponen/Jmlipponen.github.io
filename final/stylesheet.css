@@ -52,7 +52,7 @@ table {
 
 header {
 	position:fixed;
-    background-color:white;
+    background-color:yellow;
 	padding-bottom:0.5%;
 }
 
@@ -99,6 +99,7 @@ nav li {
 	background:white; opacity: 0.7;
 } 
 
+*be more specific* 
 ul {
     border: 1px solid white;
     background-color: white;
@@ -127,8 +128,8 @@ li a {
     text-decoration:none;
 }
 
-li a:hover {
-   	background:white; opacity: 0.6;
+#content2 li img:hover {
+   	background:white; opacity: 0.6; z-index:2;
 }
 
 .active {
@@ -150,6 +151,10 @@ nav {
 	width:100%;
 	background-color:white;
 	margin-left:7%;
+}
+
+#content {
+	z-index:100;
 }
 
 #content1 p {
@@ -189,6 +194,7 @@ nav {
 	float:left;
 	font:'Adobe Garamond', normal; 
 	padding-top:1%; text-decoration:none;
+	z-index:1;
 } 
 
 #content2 img {
@@ -218,7 +224,7 @@ nav li a:link {text-decoration:none; color:black; font-color:black;
 
 a:link    {color:black; background-color:transparent; text-decoration:none}
 a:visited {color:black; background-color:transparent; text-decoration:none}
-a:hover   {color:black; background-color:transparent; text-decoration:underline}
+
 
 /* #article2 {
 	float:right;
