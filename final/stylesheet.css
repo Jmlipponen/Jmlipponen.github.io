@@ -81,7 +81,7 @@ h3 {
 	font-weight: lighter;
 	font-size:1.2em;
 	padding-bottom:2%;
-	padding-left:8%;
+	padding-left:13%;
 	padding-top:3.5%;
 } 
 
@@ -159,16 +159,16 @@ nav {
 	font:'Adobe Garamond';
 	font-weight: lighter;
 	font-size:0.8em;
-	}	
+	}
 
 #content2 p {
 	float:left;
 	padding-bottom:2%;
 	font:'Adobe Garamond';
 	font-weight: lighter;
-	font-size:1.25em;
+	font-size:1em;
 	padding-left:13%;
-	width:73%;
+	width:68%;
 	}
 	
 #content2 a{
@@ -180,7 +180,9 @@ nav {
 }
 
 #content2 ul {
-	float:center;
+	float:left;
+	padding-left:5%;
+	width:100%;
 }
 
 #content2 {
@@ -190,9 +192,16 @@ nav {
 } 
 
 #content2 img {
-	padding-top:4%;
+	padding-top:2%;
 	padding-bottom:2%;
 	padding-left:5%;
+}
+
+#placeholder {
+		padding-top:2%;
+		padding-bottom:2%;
+		padding-left:25%;
+	}
 }
 
 #bullet {display:none;}
