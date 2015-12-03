@@ -52,17 +52,14 @@ table {
 
 header {
 	position:fixed;
-    background-color:yellow;
+    background-color:white;
 	padding-bottom:0.5%;
-}
-
-#logo {	
-padding-left:8%;
+	margin-left:1%;
 }
 
 h1 {left:50%;
 padding-top:2%;
-padding-bottom:1.25%;
+padding-bottom:1%;
 padding-left:8%;
 width:100%;
 font-family:'Frutiger';
@@ -71,14 +68,14 @@ font-size:1.5em;
 }
 
 #subhead {
-	font-weight: lighter;
+	font-weight:lighter;
 	font-size:1em; margin-left:1%;
 	font-family:'Adobe Garamond';
 }	
 
 h3 {
 	font:'Frutiger';
-	font-weight: lighter;
+	font-weight:lighter;
 	font-size:1.2em;
 	padding-bottom:2%;
 	padding-left:13%;
@@ -96,11 +93,10 @@ nav li {
 	text-transform:lowercase;
 	text-align:left;
 	text-decoration:none;
-	background:white; opacity: 0.7;
+	background:white; opacity: 0.6;
 } 
 
-*be more specific* 
-ul {
+nav ul {
     border: 1px solid white;
     background-color: white;
 }
@@ -128,12 +124,21 @@ li a {
     text-decoration:none;
 }
 
+nav {
+	height:2em;
+	font-color:black; text-decoration:none;
+	position:fixed;
+	width:100%;
+	background-color:white;
+	margin-left:7%;
+}
+
 #content2 li img:hover {
    	background:white; opacity: 0.6; z-index:2;
 }
 
 .active {
-    background-color:gray;
+    background-color:maroon;
 }
 
 nav li {
@@ -142,15 +147,6 @@ nav li {
 
 li:last-child {
     border-right:none;
-}
-
-nav {
-	height:2em;
-	font-color:black; text-decoration:none;
-	position:fixed;
-	width:100%;
-	background-color:white;
-	margin-left:7%;
 }
 
 #content {
@@ -162,7 +158,7 @@ nav {
 	padding-left:38%;
 	padding-bottom:2%;
 	font:'Adobe Garamond';
-	font-weight: lighter;
+	font-weight:lighter;
 	font-size:0.8em;
 	}
 
@@ -170,7 +166,7 @@ nav {
 	float:left;
 	padding-bottom:2%;
 	font:'Adobe Garamond';
-	font-weight: lighter;
+	font-weight:lighter;
 	font-size:1em;
 	padding-left:13%;
 	width:68%;
@@ -256,7 +252,7 @@ footer #p1 {
 	padding-top:1%;
 	text-align:left;
 	font:'Adobe Garamond';
-	font-weight: lighter;
+	font-weight:lighter;
 	padding-left:8%;
 	padding-bottom:2%;
 	font-size:0.9em;
@@ -267,7 +263,7 @@ footer #p2 {
 	padding-top:1%;
 	text-align:left;
 	font:'Adobe Garamond';
-	font-weight: lighter;
+	font-weight:lighter;
 	font-size:0.9em;
 	padding-right:5%;
 	padding-bottom:2%;
