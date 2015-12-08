@@ -79,7 +79,7 @@ h3 {
 	font-size:1.2em;
 	padding-bottom:1%;
 	padding-left:13%;
-	padding-top:3.5%;
+	padding-top:5%;
 } 
 
 nav li { 
@@ -169,7 +169,7 @@ li:last-child {
 	font-weight:lighter;
 	font-size:1em;
 	padding-left:13%;
-	width:68%;
+	width:85%;
 	}
 	
 #content2 a{
@@ -202,9 +202,8 @@ li:last-child {
 #placeholder {
 		padding-top:2%;
 		padding-bottom:2%;
-		padding-left:25%;
+		padding-left:13%;
 	}
-}
 
 #bullet {display:none;}
 
@@ -265,7 +264,7 @@ footer #p2 {
 	font:'Adobe Garamond';
 	font-weight:lighter;
 	font-size:0.9em;
-	padding-right:5%;
+	padding-right:3%;
 	padding-bottom:2%;
 }
 
@@ -274,10 +273,6 @@ footer #p2 {
 /* responsive to mobile part */
 @media screen and (max-width:575px) { 
 
-#logo {
-	width:100%; padding-left:10%;
-}
-	
 h1 { font-size:2em;
 	padding-left:20%;
 	padding-top:5%;}
@@ -291,9 +286,53 @@ h2 {
 h3 {
 		float:left;
 		font-size:1em;
+		padding-top:10%;
 	}	
  
 #bullet {display:none;}
+
+#img {
+	width:50%;
+}
+
+#logo {
+	width:100%; padding-left:10%;
+}
+	
+#p {
+		width:68%; 
+		float:left;
+		padding-left:13%;
+		padding-bottom:2%;
+		font-size:3em;
+		}
+	
+#placeholder {
+		width:50%;
+		padding-top:2%;
+		padding-bottom:1%;
+		float:left;
+		}
+	
+	
+	nav li {
+		font-size:1.15em;}
+		
+		nav {
+			width:100%;
+			margin-left:0%;
+			padding-left:16%;
+
+		}
+		
+footer #p1 { padding-left:5%;
+	padding-top:2%; 
+	padding-bottom:1%;
+}
+
+footer #p2 { float:right;
+	padding-bottom:1%;
+}
 
  /* #article1 {
 	 width:100%;
@@ -308,47 +347,3 @@ h3 {
 			padding-right:5%;
 			float:left;
 } */
-	
-	#p {
-		width:80%; 
-		float:left;
-		padding-left:20%;
-		padding-bottom:2%;
-		font-size:3em;
-		}
-	
-	#placeholder {
-		width:100%;
-		padding-top:5%;
-		padding-bottom:1%;
-		float:left;
-		}
-	
-	
-	nav li {
-		margin:0 auto;
-		width:50%;
-		float:left;	
-		clear:both;
-		text-align:left;
-		text-decoration:none;
-		font-size:1.15em;}
-		
-		nav {
-			height:2em;
-			padding-left:20%;
-			padding-bottom:5%;
-			padding-top:1%; text-decoration:none;
-
-		}
-		
-		
-footer #p1 { padding-left:5%;
-	padding-top:2%; 
-	padding-bottom:1%;
-}
-
-footer #p2 { padding-right:5%; 
-	padding-top:2%;
-	padding-bottom:1%;
-}
