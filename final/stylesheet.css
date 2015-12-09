@@ -53,8 +53,8 @@ table {
 header {
 	position:fixed;
     background-color:white;
-	padding-bottom:0.5%;
-	margin-left:1%;
+/*	padding-bottom:0.5%; */
+	margin-left:2%;
 }
 
 h1 {left:50%;
@@ -79,7 +79,7 @@ h3 {
 	font-size:1.2em;
 	padding-bottom:1%;
 	padding-left:13%;
-	padding-top:5%;
+	padding-top:3%;
 } 
 
 nav li { 
@@ -120,7 +120,7 @@ li a {
     display:block;
     color:white;
     text-align:left;
-    padding: 10px 14px;
+    padding: 10px 12px;
     text-decoration:none;
 }
 
@@ -133,9 +133,12 @@ nav {
 	margin-left:7%;
 }
 
-/* #content2 li img:hover {
+#content2 li img:hover {
    	background:white; opacity: 0.6; z-index:2;
-	} */
+}
+
+nav { z-index:50;}
+.fancybox img { z-index:1;}
 
 .active {
     background-color:maroon;
@@ -169,10 +172,10 @@ li:last-child {
 	font-weight:lighter;
 	font-size:1em;
 	padding-left:13%;
-	width:85%;
+	width:70%;
 	}
 	
-#content2 a{
+#content2 a {
 	padding-left:8%;
 	padding-bottom:2%;
 	font:'Adobe Garamond';
