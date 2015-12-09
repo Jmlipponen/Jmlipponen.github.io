@@ -133,9 +133,9 @@ nav {
 	margin-left:7%;
 }
 
-#content2 li img:hover {
+/* #content2 li img:hover {
    	background:white; opacity: 0.6; z-index:2;
-}
+	} */
 
 .active {
     background-color:maroon;
